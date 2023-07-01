@@ -251,3 +251,12 @@ footer {
   margin-bottom: 50px;
   font-size: 18px;
 }
+
+@media only screen and (max-width: 800px) {
+    #list {
+        margin-left: 150px;
+    }
+    #contact-list {
+        margin-left: 150px;
+    }
+}
