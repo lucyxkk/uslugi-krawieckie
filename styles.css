@@ -1,3 +1,5 @@
+/* Logo */
+
 body {
   background: #f9f5e7;
   font-family: "Ysabeau Infant", sans-serif;
@@ -15,6 +17,8 @@ body {
   text-decoration: none;
 }
 
+/* Nav Bar */
+
 nav {
   float: right;
   margin-top: -80px;
@@ -28,6 +32,8 @@ nav {
   margin: 0px 20px;
 }
 
+/* Main */
+
 #main {
   text-align: center;
   font-size: 30px;
@@ -36,7 +42,7 @@ nav {
 }
 
 #main p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #sewing {
@@ -50,13 +56,14 @@ nav {
   z-index: -1;
 }
 
+/* Gallery */
+
 #gallery-heading {
   text-align: center;
   margin-top: 150px;
   margin-bottom: 50px;
   font-size: 30px;
 }
-
 
 .gallery-pic {
   width: 300px;
@@ -128,6 +135,8 @@ nav {
   }
 }
 
+/* Price List */
+
 #price-list-heading {
   text-align: center;
   font-size: 35px;
@@ -150,8 +159,10 @@ li {
   margin-bottom: 10px;
 }
 
+/* Contact */
+
 #contact {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 #contact-heading {
@@ -161,9 +172,8 @@ li {
   font-size: 30px;
 }
 
-
-#contact-list{
-    columns: 2;
+#contact-list {
+  columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
   font-size: 20px;
@@ -173,12 +183,10 @@ li {
 }
 
 #contact-li {
-    color: #3c2a21;
+  color: #3c2a21;
 }
 form {
-
   max-width: 300px;
-
 }
 
 .feedback-input {
@@ -227,15 +235,15 @@ textarea {
 }
 
 #mail {
-    color: #a7727d;
-    text-decoration: none;
+  color: #a7727d;
+  text-decoration: none;
 }
+
+/* Footer */
 
 hr {
   width: 80px;
   border-color: #a7727d;
-
-
 }
 
 footer {
