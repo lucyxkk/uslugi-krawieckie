@@ -1,119 +1,148 @@
 body {
-    background: #F9F5E7;
-    font-family: 'Ysabeau Infant', sans-serif;  
+  background: #f9f5e7;
+  font-family: "Ysabeau Infant", sans-serif;
 }
 
 #logo {
-    font-family: 'Moirai One', cursive;
-    font-size: 25px;
-    margin-top: -10px;
-    margin-left: 15px;
+  font-family: "Moirai One", cursive;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-left: 15px;
 }
 
 #logo-link {
-    color: #A7727D;
-    text-decoration: none;
+  color: #a7727d;
+  text-decoration: none;
 }
 
 nav {
-    float: right;
-    margin-top: -80px;
-    margin-right: 20px;
-
+  float: right;
+  margin-top: -80px;
+  margin-right: 20px;
 }
 
 .nav-item {
-    font-size: 20px;
-    color: #A7727D;
-    text-decoration: none;
-    margin: 0px 20px;
-
+  font-size: 20px;
+  color: #a7727d;
+  text-decoration: none;
+  margin: 0px 20px;
 }
 
 #main {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 100px;
-    color: #3C2A21;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  color: #3c2a21;
 }
 
 #sewing {
-    height: 350px;
-    width: 350px;
-    display: block;
-    margin-top: -250px;
-    margin-left: auto;
-    margin-right: auto;
-    opacity: 20%;
-    z-index: -1;
+  height: 350px;
+  width: 350px;
+  display: block;
+  margin-top: -250px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 20%;
+  z-index: -1;
 }
 
 #gallery-heading {
-    text-align: center;
-    margin-top: 150px;
-    font-size: 35px;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 70px;
+  font-size: 35px;
 }
 
 .gallery-pic {
-    width: 300px;
-    height: 350px;
+  width: 300px;
+  height: 350px;
 }
 
 .slideshow {
-    max-width: 300px;
-    position: relative;
-    margin: auto;
-  }
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
 
 .slides {
-    display: none;
-  }
+  display: none;
+}
 
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
 
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
 
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
   }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+  to {
+    opacity: 1;
   }
+}
+
+#price-list-heading{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+ol {
+    
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-size: 20px;
+    margin-left: 400px;
+    list-style: none;
+    max-width: 700px;
+}
+
+li {
+    color: #a7727d;
+    margin-bottom: 10px;
+}
