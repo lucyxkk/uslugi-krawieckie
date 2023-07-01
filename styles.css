@@ -1,12 +1,49 @@
 body {
     background: #F9F5E7;
+    font-family: 'Ysabeau Infant', sans-serif;  
 }
 
 #logo {
     font-family: 'Moirai One', cursive;
     font-size: 25px;
-    color: #A7727D;
     margin-top: -10px;
     margin-left: 15px;
 }
 
+#logo-link {
+    color: #A7727D;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: -80px;
+    margin-right: 20px;
+
+}
+
+.nav-item {
+    font-size: 20px;
+    color: #A7727D;
+    text-decoration: none;
+    margin: 0px 20px;
+
+}
+
+#main {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    color: #3C2A21;
+}
+
+#sewing {
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 20%;
+    z-index: -1;
+}
