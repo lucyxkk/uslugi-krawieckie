@@ -254,9 +254,9 @@ footer {
 
 @media only screen and (max-width: 1200px) {
     #list {
-        margin-left: 150px;
+        margin-left: 70px;
     }
     #contact-list {
-        margin-left: 150px;
+        margin-left: 70px;
     }
 }
