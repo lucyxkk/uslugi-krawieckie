@@ -24,10 +24,17 @@
     <div id="main">
       <h1>Usługi krawieckie</h1>
       <h2>Barbara Polańska</h2>
+      <p>
+        Jestem krawcową z ponad 40 letnim doświadczeniem. 
+        <br>
+        Specjalizuje się w
+        poprawkach ubrań i materiałów (skracanie, zwęzanie itp.), a takze w
+        szyciu ubrań na miarę.
+      </p>
     </div>
     <img id="sewing" src="images/sewing.png" />
     <div id="gallery" class="slideshow">
-      <h2 id="gallery-heading">Galeria</h2>
+      <h2 id="gallery-heading">Galeria - przykładowe projekty</h2>
       <div class="slides fade">
         <img class="gallery-pic" src="images/spodnie.jpeg" />
       </div>
@@ -51,7 +58,7 @@
         <li>Drobne poprawki</li>
         <li>Średnie poprawki</li>
         <li>Duze poprawki</li>
-        <li>Szycie na wymiar</li>
+        <li>Szycie na miarę</li>
         <li>Zasłony, Firany itp.</li>
         <li>Pościel</li>
         <li>20 zł</li>
@@ -63,21 +70,49 @@
       </ol>
     </div>
     <div id="contact">
-      <h2>Kontakt</h2>
-      <h3>Barbara Polańska</h3>
-      <p>
-        nr. tel: 123-456-789
-        <br />
-        e-mail: <a href="mailto:lucja.kun2@gmail.com">lucja.kun2@gmail.com</a>
-      </p>
-      <p>Adres: <br /></p>
-
-      <p>
-        ul. Pierwsza 1
-        <br />
-        Katowice 00-000
-      </p>
+      <h2 id="contact-heading">Kontakt</h2>
+      <ol id="contact-list">
+        <li id="contact-li">
+          <h3>Barbara Polańska</h3>
+          <p>
+            nr. tel: 123-456-789
+            <br />
+            e-mail:
+            <a id="mail" href="mailto:lucja.kun2@gmail.com">lucja.kun2@gmail.com</a>
+          </p>
+          <p>
+            Adres:
+            <br />
+            ul. Pierwsza 1
+            <br />
+            Katowice 00-000
+          </p>
+        </li>
+        <li id="contact-li">
+          <form>
+            <input
+              name="name"
+              type="text"
+              class="feedback-input"
+              placeholder="Imię"
+            />
+            <input
+              name="email"
+              type="text"
+              class="feedback-input"
+              placeholder="Email"
+            />
+            <textarea
+              name="text"
+              class="feedback-input"
+              placeholder="Wiadomość"
+            ></textarea>
+            <input type="submit" value="Wyślij" />
+          </form>
+        </li>
+      </ol>
     </div>
+
     <hr />
     <footer>Łucja Kunikowska</footer>
 

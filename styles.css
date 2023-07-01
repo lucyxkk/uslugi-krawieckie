@@ -35,6 +35,10 @@ nav {
   color: #3c2a21;
 }
 
+#main p {
+    font-size: 20px;
+}
+
 #sewing {
   height: 350px;
   width: 350px;
@@ -49,9 +53,10 @@ nav {
 #gallery-heading {
   text-align: center;
   margin-top: 150px;
-  margin-bottom: 70px;
-  font-size: 35px;
+  margin-bottom: 50px;
+  font-size: 30px;
 }
+
 
 .gallery-pic {
   width: 300px;
@@ -74,7 +79,6 @@ nav {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -96,8 +100,8 @@ nav {
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 7px;
+  width: 7px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -124,25 +128,118 @@ nav {
   }
 }
 
-#price-list-heading{
-    text-align: center;
-    font-size: 35px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+#price-list-heading {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
-ol {
-    
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-    font-size: 20px;
-    margin-left: 400px;
-    list-style: none;
-    max-width: 700px;
+#list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  font-size: 20px;
+  margin-left: 400px;
+  list-style: none;
+  max-width: 700px;
 }
 
 li {
+  color: #a7727d;
+  margin-bottom: 10px;
+}
+
+#contact {
+    margin-bottom: 100px;
+}
+
+#contact-heading {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#contact-list{
+    columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  font-size: 20px;
+  margin-left: 350px;
+  list-style: none;
+  max-width: 800px;
+}
+
+#contact-li {
+    color: #3c2a21;
+}
+form {
+
+  max-width: 300px;
+
+}
+
+.feedback-input {
+  font-family: "Ysabeau Infant", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 1px solid #a7727d;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #a7727d;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Ysabeau Infant", sans-serif;
+  width: 100%;
+  background: #a7727d;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #a7727d;
+}
+
+#mail {
     color: #a7727d;
-    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+hr {
+  width: 80px;
+  border-color: #a7727d;
+
+
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
 }
