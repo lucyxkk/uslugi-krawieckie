@@ -1,3 +1,12 @@
 body {
-    
+    background: #F9F5E7;
 }
+
+#logo {
+    font-family: 'Moirai One', cursive;
+    font-size: 25px;
+    color: #A7727D;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
