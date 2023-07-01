@@ -5,29 +5,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="styles.css" rel="stylesheet" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Ysabeau+Infant:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Ysabeau+Infant:wght@200&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="logo">
       <a id="logo-link" href="#main"><h1>BP</h1></a>
     </div>
     <nav>
-    <a class="nav-item" href="#gallery">Galeria</a> 
-    <a class="nav-item" href="#price-list">Cennik</a> 
-    <a class="nav-item" href="#contact">Kontakt</a>
+      <a class="nav-item" href="#gallery">Galeria</a>
+      <a class="nav-item" href="#price-list">Cennik</a>
+      <a class="nav-item" href="#contact">Kontakt</a>
     </nav>
     <div id="main">
       <h1>Usługi krawieckie</h1>
       <h2>Barbara Polańska</h2>
     </div>
     <img id="sewing" src="images/sewing.png" />
-    <div id="gallery">
-      <h2>Galeria</h2>
-      <img class="gallery-pic" src="images/spodnie.webp" />
-      <img class="gallery-pic" src="images/shirt.jpeg" />
-      <img class="gallery-pic" src="images/zaslony.jpeg" />
+    <div id="gallery" class="slideshow">
+      <h2 id="gallery-heading">Galeria</h2>
+      <div class="slides fade">
+        <img class="gallery-pic" src="images/spodnie.jpeg" />
+      </div>
+      <div class="slides fade">
+        <img class="gallery-pic" src="images/shirt.jpeg" />
+      </div>
+      <div class="slides fade">
+        <img class="gallery-pic" src="images/zaslony.avif" />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
     <div id="price-list">
       <h2>Cennik</h2>
